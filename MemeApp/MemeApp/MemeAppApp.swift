@@ -9,6 +9,11 @@ import SwiftUI
 
 @main
 struct MemeAppApp: App {
+    
+    @StateObject private var vm = MemeViewModel(
+        caller: APICaller()
+    )
+    
     var body: some Scene {
         WindowGroup {
             MemeScreen()

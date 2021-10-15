@@ -18,6 +18,7 @@
 		496FE1C4271262DE00FEBBA6 /* MemeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496FE1C3271262DE00FEBBA6 /* MemeViewModel.swift */; };
 		496FE1C72712657000FEBBA6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496FE1C62712657000FEBBA6 /* LoadingView.swift */; };
 		496FE1D02713C3D400FEBBA6 /* ImageFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496FE1CF2713C3D400FEBBA6 /* ImageFromURL.swift */; };
+		49BE84C127186C4000978D2D /* CollapseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BE84C027186C4000978D2D /* CollapseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		496FE1C3271262DE00FEBBA6 /* MemeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeViewModel.swift; sourceTree = "<group>"; };
 		496FE1C62712657000FEBBA6 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		496FE1CF2713C3D400FEBBA6 /* ImageFromURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromURL.swift; sourceTree = "<group>"; };
+		49BE84C027186C4000978D2D /* CollapseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				496FE1C62712657000FEBBA6 /* LoadingView.swift */,
+				49BE84C027186C4000978D2D /* CollapseView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				4907766F2710962900B498AF /* MemeAppApp.swift in Sources */,
 				496FE1C72712657000FEBBA6 /* LoadingView.swift in Sources */,
 				496FE1BA2712563B00FEBBA6 /* AppData.swift in Sources */,
+				49BE84C127186C4000978D2D /* CollapseView.swift in Sources */,
 				496FE1D02713C3D400FEBBA6 /* ImageFromURL.swift in Sources */,
 				496FE1C0271261A600FEBBA6 /* MemeScreen.swift in Sources */,
 			);
