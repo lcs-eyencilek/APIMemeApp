@@ -14,9 +14,11 @@ struct MemeAppApp: App {
         caller: APICaller()
     )
     
+    @State private var selectedItem = Meme(id: "", name: "", url: "", width: 0, height: 0, box_count: 0)
+    
     var body: some Scene {
         WindowGroup {
-            MemeScreen()
+            MemeScreen(selectedItem: $selectedItem, vm: vm)
         }
     }
 }

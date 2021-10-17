@@ -9,7 +9,9 @@ import SwiftUI
 
 struct MemeScreen: View {
     
-    @StateObject private var vm = MemeViewModel(
+    @Binding var selectedItem: Meme
+    
+    @ObservedObject var vm = MemeViewModel(
         caller: APICaller()
     )
     
@@ -17,7 +19,7 @@ struct MemeScreen: View {
     
     @State private var showItem = Meme(id: "", name: "", url: "", width: 0, height: 0, box_count: 0)
     
-    @State var inputText: String = ""
+    @State private var inputText: String = ""
     
     let layout: [GridItem] = [
         GridItem(.flexible(minimum: 120, maximum: 160)),
@@ -76,8 +78,8 @@ struct MemeScreen: View {
     }
 }
 
-struct MemeScreen_Previews: PreviewProvider {
-    static var previews: some View {
-        MemeScreen()
-    }
-}
+//struct MemeScreen_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MemeScreen()
+//    }
+//}

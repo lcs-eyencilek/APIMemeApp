@@ -20,6 +20,8 @@
 		496FE1D02713C3D400FEBBA6 /* ImageFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496FE1CF2713C3D400FEBBA6 /* ImageFromURL.swift */; };
 		49BE84C127186C4000978D2D /* CollapseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BE84C027186C4000978D2D /* CollapseView.swift */; };
 		49BE84C3271AF56100978D2D /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BE84C2271AF56100978D2D /* SearchBar.swift */; };
+		49BE84C5271B530900978D2D /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BE84C4271B530900978D2D /* CaptureView.swift */; };
+		49BE84C7271B54A500978D2D /* CaptureMeme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BE84C6271B54A500978D2D /* CaptureMeme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		496FE1CF2713C3D400FEBBA6 /* ImageFromURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromURL.swift; sourceTree = "<group>"; };
 		49BE84C027186C4000978D2D /* CollapseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapseView.swift; sourceTree = "<group>"; };
 		49BE84C2271AF56100978D2D /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		49BE84C4271B530900978D2D /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		49BE84C6271B54A500978D2D /* CaptureMeme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureMeme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,7 @@
 				496FE1C62712657000FEBBA6 /* LoadingView.swift */,
 				49BE84C027186C4000978D2D /* CollapseView.swift */,
 				49BE84C2271AF56100978D2D /* SearchBar.swift */,
+				49BE84C4271B530900978D2D /* CaptureView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				496FE1CF2713C3D400FEBBA6 /* ImageFromURL.swift */,
+				49BE84C6271B54A500978D2D /* CaptureMeme.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 				496FE1B6271255A400FEBBA6 /* FetchMemeData.swift in Sources */,
 				496FE1C4271262DE00FEBBA6 /* MemeViewModel.swift in Sources */,
 				496FE1BC2712580C00FEBBA6 /* Meme.swift in Sources */,
+				49BE84C7271B54A500978D2D /* CaptureMeme.swift in Sources */,
 				496FE1C2271261AE00FEBBA6 /* MemeView.swift in Sources */,
 				4907766F2710962900B498AF /* MemeAppApp.swift in Sources */,
 				496FE1C72712657000FEBBA6 /* LoadingView.swift in Sources */,
@@ -247,6 +254,7 @@
 				496FE1D02713C3D400FEBBA6 /* ImageFromURL.swift in Sources */,
 				49BE84C3271AF56100978D2D /* SearchBar.swift in Sources */,
 				496FE1C0271261A600FEBBA6 /* MemeScreen.swift in Sources */,
+				49BE84C5271B530900978D2D /* CaptureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
